@@ -1,3 +1,6 @@
+* {
+    transition: 650ms ease-in-out;
+}
 div {
     text-align: center;
 }

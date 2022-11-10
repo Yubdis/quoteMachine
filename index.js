@@ -36,6 +36,5 @@ function getNewQuote() {
   document.getElementById("tweet-quote").href = twitterLink
   
   var randColor = Math.floor(Math.random() * COLORS.length);
-
+  document.body.style.backgroundColor = COLORS[randColor];
 }
-
