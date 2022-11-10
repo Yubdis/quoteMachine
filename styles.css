@@ -1,0 +1,24 @@
+div {
+    text-align: center;
+}
+
+#text {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#\n
+author {
+    margin: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
