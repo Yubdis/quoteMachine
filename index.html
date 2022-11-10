@@ -17,17 +17,19 @@
     <script src="data.js"></script>
     <title>Random Quote Machine</title>
 </head>
-<body>
+<body class="bg-info" id="body">
     <div class="container">
-    
         <div id="wrapper">
             <div class="container-fluid" id="quote-box">
-                <div class="text" id="text">Random Quote</div>
-                <div class="author" id="author">- Author</div>
-                <button class="btn btn-primary" onClick="getNewQuote()" id="new-quote">New Quote</button>
-                <a class="btn btn-danger" id="tweet-quote" href="#" target="_blank">
-                    <i class="fa fa-twitter" href="twitterLink">Tweet</i>
-                </a>
+                <div class="bg-white p-5" id="card">
+                    <h2 class="col">Random Quote Machine</h2>
+                    <div class="col" id="text">Random Quote</div>
+                    <div class="col my-2" id="author">- Author</div>
+                    <button class="btn btn-primary" onClick="getNewQuote()" id="new-quote">New Quote</button>
+                    <a class="btn btn-danger" id="tweet-quote" href="#" target="_blank">
+                        <i class="fa fa-twitter" href="twitterLink">Tweet</i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
